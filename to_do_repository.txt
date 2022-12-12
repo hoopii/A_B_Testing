@@ -1,0 +1,5 @@
+to to repository: 
+- go through notebook: 
+	- comment and document code
+- go through function at the end that leads through the whole process of finding the winner. 
+- Write Readme-File 
