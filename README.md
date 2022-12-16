@@ -70,7 +70,7 @@ to guide the design of additional A/B tests. This data is licensed CC BY-SA, htt
 3. To find the winner between the five tested versions we repeat the whole statistical testing over and over again with each time dropping the worst candidate. 
 
 
-## Files in this repository
+# Files and Folders in this repository
 - [Notebook for this project](../main/notebook/chi_square_test_find_winner.ipynb)
 - [CSV file HP Version 1](../main/data_crazy_egg/HomepageVersion1.csv)
 - [CSV file HP Version 2](../main/data_crazy_egg/HomepageVersion2.csv)
