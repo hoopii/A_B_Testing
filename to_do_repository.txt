@@ -2,5 +2,7 @@ to to repository:
 - go through notebook: 
 	- comment and document code
 - optimize function at the end that leads through the whole process of finding the winner. 
-- Write Readme-File: 
-	- For writing use this page here: https://quod.lib.umich.edu/w/weave/12535642.0001.101?view=text;rgn=main
+- Optimize Readme-File: 
+	- For optimization use: https://quod.lib.umich.edu/w/weave/12535642.0001.101?view=text;rgn=main
+	- maybe add information on other metrics which were used in the project and formulate 
+	the results more in detail putting into consideration all of the results of all metrics. 
