@@ -1,5 +1,5 @@
 # A_B_Testing
-Perform post-hoc correction using pairwise chi-square tests on five tested website versions based on the Montana Library case study
+Perform pairwise chi-square tests on five tested website versions based on the Montana Library case study
 
 ![grafik](https://user-images.githubusercontent.com/100354393/208067598-55360558-c73a-4246-a0ae-36bb607f7603.png)
 
@@ -30,6 +30,14 @@ The metrics that were deemed relevant enough to be tracked were the following:
 - Homepage-return rate for the category pages. Percentage of users who navigated from the library homepage to the category page, then returned back to the homepage. This sequence of actions provides clues as to whether a user discovered the desired option on the category page; if not, the user would likely return to the homepage to continue navigation. Homepage-return rate was therefore selected as a measure of the ability of the category page to meet user expectations.   
 
 # Goal
+The goal is to perform pairwise chi-square tests on the five tested website versions from Montana Library case study to find out 
+which of the five tested versions performed best in the A/B-Testing the UX-Team performed.
+
+But: To run the test comparing the CTRs for all the versions does not tell us the real winner yet. It only tells us that some version(s) indeed performed better (or worse) than others. We can be sure that the best version, if statistically significant, performed better than the worst one, but we cannot be certain that the differences between the best and the second best performer e.g.
+
+One possible approach to solve this is to narrow down the candidates: simply kick out the worst performer, and run the test again. 
+We will drop candidates until we only have two candidates left to test on and then identify the winner or until the differences in performance are below the chosen significance level.  
+
 While all the metrics will be relevant for the decision-making process, it was decided that for a version to be considered superior, a **minimum increase in click-through rate of 30%** had to be detected.   
 
 The hypotheses to be tested in the experiment are the following:
@@ -40,45 +48,29 @@ The desired Statistical Significance was chosen to be 90%: it is a bit lower tha
 
 
 # Data Set 
+- The data for this case study can be downloaded on the Montana State University library webpage, [here](https://scholarworks.montana.edu/xmlui/handle/1/3507).
+- It has bee prepared by Scott W. H. Young, Digital Initiatives Librarian at Montana State University.
+- The folders contain data exported from Google Analytics and [crazyegg](https://www.crazyegg.com/), a service that tracks traffic to websites and provides insights and well-structured data.
+- The data has been sampled from April 3, 2013 – April 10, 2013 and included 10.819 visits to the library homepage,
 
-The data can be downloaded also on the Montana State University library webpage, [here](https://scholarworks.montana.edu/xmlui/handle/1/3507).
-It has been extracted from [crazyegg](https://www.crazyegg.com/), a service that tracks traffic to websites and provides insights and well-structured data. 
-
-The data has been sampled from April 3, 2013 – April 10, 2013 and included 10.819 visits to the library homepage,
+In the readme-file is stated the following: "Together these files may be used to reconstruct results and
+to guide the design of additional A/B tests. This data is licensed CC BY-SA, http://creativecommons.org/licenses/by-sa/4.0/"
 
 
 # Skills/Methods
-- Creative feature engineering 
-- Advanced regression techniques like random forest and gradient boosting
-- Apply One-Hot-Encoding for preprocessing
-- Use scikit-learn Pipelines 
-- Use GridSearch in combination with cross validation for model tuning
-- Implementation with scikit-learn
-- Deploy classification performance metrics for classification task
-- explore feature selection techniques and dimensionality reduction with PCA
-- first deployment wit streamlit  
-
+- Prepare dataset to perform statistical testing.
+- Understand how hypothesis testing can be used in the digital industry.
+- Use the scipy module in Python to perform Chi-Square-Tests on the results from A/B-Testing.
+- apply, understand and interpret inferential statistics.
+- automate the process of using repeated statistical testing on the different tested versions using functions and loops in Python.
 
 ## Basic Steps in this Project: 
+1. Load and prepare data for applying statistical test
+2. Apply Chi-Square test and interpret the results
+3. To find the winner between the five tested versions we repeat the whole statistical testing over and over again with each time dropping the worst candidate. 
 
-![grafik](https://user-images.githubusercontent.com/100354393/205448382-c7258c89-05cf-4d90-ae76-f30fe592669d.png)
-
-1. Explore & clean the data 
-2. Data preprocessing
-3. Modelling 
-4. Model Tuning using GridSearch in combination with Cross Validation
-5. Model Evaluation      
---> [Associated notebook for classification task: Predicting if house is expensive or not](../main/housing_prices_model_classification.ipynb)      
---> [Associated notebook for regression task](../main/housing_prices_model_regression.ipynb)  
-5. Further exploratuons: Performance after dimensionality reduction with PCA 
---> [Associated notebook](../main/housing_prices_regression_pca.ipynb) 
-4. Further explorations: Feature selection techniques 
---> [Associated notebook](../main/feature_selection_housing_prices.ipynb) 
-5. Take part at kaggle competion
---> [Associated notebook](../main/kaggle_competition_feature_selection_housing_prices_model.ipynb)
-6. Deploy the model using streamlit 
 
 ## Files in this repository
-- [Description of the features](../main/data_description.txt)
+- [Notebook for this project](../main/data_description.txt)
 - [Notebook for classification task: Predicting if house is expensive or not](../main/housing_prices_model_classification.ipynb)      
 - [Notebook for regression task](../main/housing_prices_model_regression.ipynb)  
