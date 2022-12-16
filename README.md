@@ -6,8 +6,8 @@ Perform post-hoc correction using pairwise chi-square tests on five tested websi
 # Use Case
 
 Data and use case for this project is taken from a Case study that tried to improve library user experience with A/B testing. Process and principles of this
-study have been published in the Journal of Library Usere Experience here: (https://doi.org/10.3998/weave.12535642.0001.101)
-
+study have been published by the author Scott W. H. Young in the Journal of Library Usere Experience here:   
+[Young, Scott W.H. (2014). Improving Library User Experience with A/B Testing: Principles and Process. Weave, Journal of Library User Experiencem, Volume 1(Issue 1), doi:https://doi.org/10.3998/weave.12535642.0001.101.](https://doi.org/10.3998/weave.12535642.0001.101)
 
 
 # Goal
