@@ -10,10 +10,9 @@ study have been published by the author Scott W. H. Young in the Journal of Libr
 
 The library tried to improve their website. The analysing team found the following interaction pattern: Below the library picture, there was search bar and three big items: “Find”, “Request” and “Interact” (like in the picture at the top of this file). All three of them contained access to important information and services that the library prides itself in offering. However, the Website Analytics show that the “Interact” button has, ironically, almost no interactions. (The way to measure how each one of the three categories performed is by click-through rate (CTR). Here, click-through rate is measured as the number of clicks on each item divided by the total number of visits on the website.)
 
-We cite from the report: 
-   
-   
-   The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?” At this time,    the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About, Staff Directory, Library FAQ, Give    to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the abstract term “Interact” added difficulty and confusion    for users trying to navigate into the library website homepage. Four different category titles were then proposed as variations to be tested: Connect, Learn, Help,    and Services.
+We cite from the report:       
+
+      The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?” At this           time,    the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About, Staff Directory,             Library FAQ, Give    to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the abstract term “Interact” added       difficulty and confusion    for users trying to navigate into the library website homepage. Four different category titles were then proposed as variations to be       tested: Connect, Learn, Help, and Services.
 
 
 # Goal
