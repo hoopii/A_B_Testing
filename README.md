@@ -1,5 +1,5 @@
 # A/B-Testing
-Perform pairwise chi-square tests on five tested website versions based on the Montana Library case study
+## Perform pairwise chi-square tests on five tested website versions based on the Montana Library case study
 
 ![grafik](https://user-images.githubusercontent.com/100354393/208067598-55360558-c73a-4246-a0ae-36bb607f7603.png)
 
