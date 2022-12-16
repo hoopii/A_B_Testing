@@ -12,7 +12,11 @@ The library tried to improve their website. The analysing team found the followi
 
 We cite from the report:       
 
-      The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?” At this           time,    the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About, Staff Directory,             Library FAQ, Give    to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the abstract term “Interact” added       difficulty and confusion    for users trying to navigate into the library website homepage. Four different category titles were then proposed as variations to be       tested: Connect, Learn, Help, and Services.
+      The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?”   
+      At this time, the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About,    
+      Staff Directory, Library FAQ, Give to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the    
+      abstract term “Interact” added difficulty and confusion for users trying to navigate into the library website homepage. Four    
+      different category titles were then proposed as variations to be tested: Connect, Learn, Help, and Services.
 
 
 # Goal
