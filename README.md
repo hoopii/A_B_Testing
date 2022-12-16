@@ -8,7 +8,7 @@ Data and use case for this project is taken from a Case study that tried to impr
 study have been published by the author Scott W. H. Young in the Journal of Library User Experience here:   
 [Young, Scott W.H. (2014). Improving Library User Experience with A/B Testing: Principles and Process. Weave, Journal of Library User Experience, Volume 1(Issue 1), doi:https://doi.org/10.3998/weave.12535642.0001.101.](https://doi.org/10.3998/weave.12535642.0001.101)
 
-The library tried to improve their website. The analysing team found the following interaction pattern: Below the library picture, there was search bar and three big items: “Find”, “Request” and “Interact” (like in the picture at the top of this file). All three of them contained access to important information and services that the library prides itself in offering. However, the Website Analytics show that the “Interact” button has, ironically, almost no interactions. (The way to measure how each one of the three categories performed is by click-through rate (CTR). Here, click-through rate is measured as the number of clicks on each item divided by the total number of visits on the website.)
+The library tried to improve their website. The analysing team found the following interaction pattern: Below the library picture, there was search bar and three big items: “Find”, “Request” and “Interact” (like in the picture at the top of this file). All three of them contained access to important information and services that the library prides itself in offering. However, the Website Analytics show that the “Interact” button has, ironically, almost no interactions. 
 
 We cite from the report:       
 
@@ -18,16 +18,33 @@ We cite from the report:
       abstract term “Interact” added difficulty and confusion for users trying to navigate into the library website homepage. Four    
       different category titles were then proposed as variations to be tested: Connect, Learn, Help, and Services.
 
+So after conduction further interviews with the users and some brainstorming, the website team settled on 4 different new versions to test against the original “Interact” button:
+- Connect
+- Learn
+- Help
+- Services
+
+The metrics that were deemed relevant enough to be tracked were the following: 
+- Click-through rate (CTR) for the homepage. Amount of clicks on the button divided by the total visits to the page. Selected as a measure of the initial ability of the category title to attract users
+- Drop-off rate for the category pages. Percentage of visitors who leave the site from a given page, selected as a measure of the ability of the category page to meet user expectations.
+- Homepage-return rate for the category pages. Percentage of users who navigated from the library homepage to the category page, then returned back to the homepage. This sequence of actions provides clues as to whether a user discovered the desired option on the category page; if not, the user would likely return to the homepage to continue navigation. Homepage-return rate was therefore selected as a measure of the ability of the category page to meet user expectations.   
 
 # Goal
-The task is to create a model that predicts the price of a house based on its characteristics
-The project will be divided into two major phases:
-1. Create a model to predict whether a house is expensive or not. 
-2. Create a model to predict the exact price of a house.
+While all the metrics will be relevant for the decision-making process, it was decided that for a version to be considered superior, a **minimum increase in click-through rate of 30%** had to be detected.   
+
+The hypotheses to be tested in the experiment are the following:
+- Null Hypothesis: all versions have the same Click Through Rate (CTR).
+- Alternative Hypothesis: there is a difference in the CTR for the different versions.
+
+The desired Statistical Significance was chosen to be 90%: it is a bit lower than the usual scientific standard of 95% because the consequences of rejecting the null hypothesis when it is true (i.e. concluding there is an effect when there is none) are not tragic, and there are constraints in the amount of time the team of experimenters have: quickness was prioritized over certainty.
 
 
 # Data Set 
-The data has been sampled from pril 3, 2013 – April 10, 2013 and included 10.819 visits to the library homepage,
+
+The data can be downloaded also on the Montana State University library webpage, [here](https://scholarworks.montana.edu/xmlui/handle/1/3507).
+It has been extracted from [crazyegg](https://www.crazyegg.com/), a service that tracks traffic to websites and provides insights and well-structured data. 
+
+The data has been sampled from April 3, 2013 – April 10, 2013 and included 10.819 visits to the library homepage,
 
 
 # Skills/Methods
