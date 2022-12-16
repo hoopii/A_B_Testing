@@ -4,10 +4,15 @@ Perform post-hoc correction using pairwise chi-square tests on five tested websi
 ![grafik](https://user-images.githubusercontent.com/100354393/208067598-55360558-c73a-4246-a0ae-36bb607f7603.png)
 
 # Use Case
-
 Data and use case for this project is taken from a Case study that tried to improve library user experience with A/B testing. Process and principles of this
-study have been published by the author Scott W. H. Young in the Journal of Library Usere Experience here:   
-[Young, Scott W.H. (2014). Improving Library User Experience with A/B Testing: Principles and Process. Weave, Journal of Library User Experiencem, Volume 1(Issue 1), doi:https://doi.org/10.3998/weave.12535642.0001.101.](https://doi.org/10.3998/weave.12535642.0001.101)
+study have been published by the author Scott W. H. Young in the Journal of Library User Experience here:   
+[Young, Scott W.H. (2014). Improving Library User Experience with A/B Testing: Principles and Process. Weave, Journal of Library User Experience, Volume 1(Issue 1), doi:https://doi.org/10.3998/weave.12535642.0001.101.](https://doi.org/10.3998/weave.12535642.0001.101)
+
+The library tried to improve their website. The analysing team found the following interaction pattern: Below the library picture, there was search bar and three big items: “Find”, “Request” and “Interact” (like in the picture at the top of this file). All three of them contained access to important information and services that the library prides itself in offering. However, the Website Analytics show that the “Interact” button has, ironically, almost no interactions. (The way to measure how each one of the three categories performed is by click-through rate (CTR). Here, click-through rate is measured as the number of clicks on each item divided by the total number of visits on the website.)
+
+We cite from the report: 
+   
+   The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?” At this time,    the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About, Staff Directory, Library FAQ, Give    to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the abstract term “Interact” added difficulty and confusion    for users trying to navigate into the library website homepage. Four different category titles were then proposed as variations to be tested: Connect, Learn, Help,    and Services.
 
 
 # Goal
@@ -18,14 +23,8 @@ The project will be divided into two major phases:
 
 
 # Data Set 
-The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's analternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
-This Dataset is used in the following Kaggle Competition: 
-> "House Prices - Advanced Regression Techniques. Predict sales prices and practice feature engineering, RFs, and gradient boosting"
+The data has been sampled from pril 3, 2013 – April 10, 2013 and included 10.819 visits to the library homepage,
 
-The dataset contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa
-The datsate contains the prices and explanatory variables for a sample of 1460 houses. 
-
-[Here you can find the dataset and also an overview of the competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
 # Skills/Methods
 - Creative feature engineering 
