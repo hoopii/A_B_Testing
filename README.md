@@ -1,4 +1,4 @@
-# A_B_Testing
+# A/B-Testing
 Perform pairwise chi-square tests on five tested website versions based on the Montana Library case study
 
 ![grafik](https://user-images.githubusercontent.com/100354393/208067598-55360558-c73a-4246-a0ae-36bb607f7603.png)
@@ -64,13 +64,17 @@ to guide the design of additional A/B tests. This data is licensed CC BY-SA, htt
 - apply, understand and interpret inferential statistics.
 - automate the process of using repeated statistical testing on the different tested versions using functions and loops in Python.
 
-## Basic Steps in this Project: 
+# Basic Steps in this Project: 
 1. Load and prepare data for applying statistical test
 2. Apply Chi-Square test and interpret the results
 3. To find the winner between the five tested versions we repeat the whole statistical testing over and over again with each time dropping the worst candidate. 
 
 
 ## Files in this repository
-- [Notebook for this project](../main/data_description.txt)
-- [Notebook for classification task: Predicting if house is expensive or not](../main/housing_prices_model_classification.ipynb)      
-- [Notebook for regression task](../main/housing_prices_model_regression.ipynb)  
+- [Notebook for this project](../main/notebook/chi_square_test_find_winner.ipynb)
+- [CSV file HP Version 1](../main/data_crazy_egg/HomepageVersion1.csv)
+- [CSV file HP Version 2](../main/data_crazy_egg/HomepageVersion2.csv)
+- [CSV file HP Version 3](../main/data_crazy_egg/HomepageVersion3.csv) 
+- [CSV file HP Version 4](../main/data_crazy_egg/HomepageVersion4.csv)
+- [CSV file HP Version 5](../main/data_crazy_egg/HomepageVersion5.csv) 
+- [Folders for each Version to find also find Heatmap and Confetti pictures for visualisation](../main/data_crazy_egg)
